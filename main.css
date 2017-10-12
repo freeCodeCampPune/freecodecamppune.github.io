@@ -1,30 +1,46 @@
+h1,h2,h3,h4,h5,h6,p,a {
+	font-family: 'Lato', sans-serif;
+}
+
 .header {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    justify-content: center;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
-.fcc-title{
-    font-size: 50px;  
-    color:white;
-    margin:20px;  
-    font-family: ubuntu;
-    margin-bottom:40px;
-
-}
-.info{
-    margin-top:10px;
-    color:white;
-    font-size: 18px;
-    font-family: ubuntu;
-}
-a{
-    color:white;
+.fcc-title {
+	font-size: 50px;
+	color:white;
+	margin:20px;
+	font-family: ubuntu;
+	margin-bottom:40px;
 }
 
-body{
-    background-color: #346506;
+.info {
+	margin-top:10px;
+	color:white;
+	font-size: 18px;
+	font-family: ubuntu;
+}
+
+a {
+	color:white;
+}
+
+body {
+	background-color: #346506;
+}
+
+.mapouter {
+	overflow: hidden;
+	height: 290px;
+	width: 463px;
+}
+
+.gmap_canvas {
+	background: none !important;
+	height: 290px;
+	width: 463px;
 }
