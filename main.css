@@ -1,0 +1,30 @@
+.header {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+}
+
+.fcc-title{
+    font-size: 50px;  
+    color:white;
+    margin:20px;  
+    font-family: ubuntu;
+    margin-bottom:40px;
+
+}
+.info{
+    margin-top:10px;
+    color:white;
+    font-size: 18px;
+    font-family: ubuntu;
+}
+a{
+    color:white;
+}
+
+body{
+    background-color: #346506;
+}
