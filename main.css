@@ -1,30 +1,24 @@
-.header {
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    
-    align-items: center;
-    justify-content: center;
-}
 
-.fcc-title{
-    font-size: 50px;  
-    color:white;
-    margin:20px;  
-    font-family: ubuntu;
-    margin-bottom:40px;
-
-}
-.info{
-    margin-top:10px;
-    color:white;
-    font-size: 18px;
-    font-family: ubuntu;
+body {
+  font-family: 'Varela Round', sans-serif;
 }
 a{
-    color:white;
+  color: red;
 }
 
-body{
-    background-color: #346506;
+
+
+
+.normalize-ul a {
+  color: black;
+}
+
+.normalize-ul li {
+  font-size: 1.2em;
+  color: #004d40;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.1em;
 }
